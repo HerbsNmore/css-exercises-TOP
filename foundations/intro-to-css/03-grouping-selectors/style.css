@@ -1,1 +1,13 @@
 /* Add CSS Styling */
+.font {
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", "sans-serif";
+}
+
+.zebra {
+    background-color: #000000; color: #ffffff; 
+}
+
+.banana {
+    background-color: hsl(50, 100%, 50%) 
+}
