@@ -8,15 +8,16 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+/* Instead of adding # to .para you can add p to .small-para to give it more specificity because it now has three selectors */
+p.small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-#para {
+.para {
   font-size: 22px;
 }
-
+/* my solution for this one was the same as the TOP solution, yay! */
 #confirm-button {
   background: green;
   color: white;
@@ -28,15 +29,16 @@ body {
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
-
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
-
+/* moved div. text above .child. Renamed .child to .text .child */
 .div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
 }
+
+.text .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
