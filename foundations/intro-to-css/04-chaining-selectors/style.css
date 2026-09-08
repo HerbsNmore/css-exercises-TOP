@@ -2,7 +2,7 @@
 .avatar.proportioned {
     width: 300px;
     height: auto;
-
+/* height defaults to "auto" so going forward, I won't need to add it */
 }
 
 .avatar.distorted {
