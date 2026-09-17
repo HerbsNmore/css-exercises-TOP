@@ -56,6 +56,9 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  display: flex;
+  justify-content: flex-start;
+  
   /* background-color: orange; */
  
   
@@ -64,10 +67,10 @@ a {
 
 ul {
   list-style-type: none;
-  /* background-color: lightblue; */
   display: flex;
   justify-content: flex-start;
   gap: 16px;
+  /* background-color: lightblue; */
 }
 
 .container-butt {
@@ -81,5 +84,5 @@ ul {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 16px;
+  
 }
