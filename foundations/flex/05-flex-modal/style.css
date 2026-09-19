@@ -76,17 +76,32 @@ button.cancel {
   gap: 5px;
   
   
-} 
+}  
 
-.one {
+.container-head {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  
+  padding: 5px;
 }
 
-.two {
+.container-text {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding: 5px;
+}
+
+.container-butt {
   display: flex;
   gap: 5px;
   justify-content: flex-start;
+  padding: 5px;
 }
+
+.container-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+} 
