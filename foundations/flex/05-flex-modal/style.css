@@ -12,7 +12,7 @@ body {
   /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .modal {
@@ -20,6 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 25px;
 }
 
 .icon {
@@ -32,7 +33,7 @@ body {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .close-button {
@@ -45,7 +46,7 @@ body {
   width: 24px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
   border: 1px solid #eee;
   padding: 0;
 }
@@ -66,4 +67,26 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 5px;
+  
+  
+} 
+
+.one {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  
+}
+
+.two {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-start;
 }
