@@ -76,31 +76,23 @@ button.cancel {
   display: flex;
   gap: 20px;
   flex-direction: column;
-  flex-wrap: wrap;
-}
+  
+} 
 
 .container-icon {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  flex-direction: column;
   flex-wrap: wrap;
-  
-  
+  flex: 2 1 auto;
 }
 
 .container-header {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  
-}
 
-.container-text {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-  
-}
+} 
+
 
 .container-button {
   display: flex;
@@ -109,4 +101,4 @@ button.cancel {
   gap: 5px;
 
  
-}
+} 
