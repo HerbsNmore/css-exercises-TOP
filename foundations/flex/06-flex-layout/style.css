@@ -5,7 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-  
+  display: flex;
+  flex-direction: column; /*this is what made the footer turn into a column. 
+  Then it was mainly adjusting the padding to make it fit. Good job though */
 }
 
 img {
@@ -30,15 +32,17 @@ input {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 4px;
-  margin-right: 20px;
-  flex-shrink: 0;
+  padding: 16px;
+  /*margin-right: 20px;
+  /*flex-shrink: 0;*/
 }
 
 ul {
   display: flex;
-  gap: 20px;
+  gap: 16px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -50,21 +54,19 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   flex-direction: column;
   gap: 20px;
-  padding: 20px;
-  min-height: 80vh;
-  flex: 1 0 auto;
+  /*padding: 20px;
+  min-height: 80vh; */
+  flex: 1;
 }
 
 .footer {
   background-color: #eeeeee;
-  padding: 4px;
+  padding: 16px;
   display: flex;
-  flex: 1 0 auto;
-  min-height: 20vh;
   justify-content: space-between;
-  padding-right: 20px;
-  
+  /*flex: 1 0 auto;
+  min-height: 20vh; 
+  padding-right: 20px; */
 }
