@@ -4,6 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .header {
@@ -15,22 +16,70 @@ body {
   display: flex;
   align-items: center;
   padding-left: 16px;
+  
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  padding: 16px;
+  display: flex;
+  flex: 1 0 300px;
+  
+ 
+  
 }
+
+ul {
+  list-style: none;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+li {
+  display: flex;
+  justify-content: flex-start;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-content {
+  display: flex;
+  flex-grow: 1;
+}
+
+/*
+.card-content {
+  display: flex;
+  flex-grow: 1;
+  
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  
+} */
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  display: flex;
+  
 }
