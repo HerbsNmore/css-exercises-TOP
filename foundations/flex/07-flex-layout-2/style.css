@@ -36,7 +36,7 @@ body {
   padding: 16px;
   display: flex;
   flex: 1 0 300px;
-  
+  flex-wrap: nowrap;
  
   
 }
@@ -44,15 +44,15 @@ body {
 ul {
   list-style: none;
   font-size: 24px;
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  align-content: flex-start;
+  align-content: flex-start; */
 }
 
-li {
+/*li {
   display: flex;
   justify-content: flex-start;
-}
+} */
 
 a {
   text-decoration: none;
@@ -61,25 +61,29 @@ a {
 
 .main-content {
   display: flex;
-  flex-grow: 1;
+  flex: 1 0 auto;
+  
+
 }
 
-/*
 .card-content {
   display: flex;
-  flex-grow: 1;
-  
   flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  
-} */
+  flex: 1 1 auto;
+  flex-direction: row;
+  padding: 48px;
+  gap: 24px;
+} 
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   display: flex;
-  
+  max-width: 350px;
+  flex-wrap: wrap;  
+  flex-direction: row; 
+  align-content: flex-start;
+  flex: 1 1 300px;
+  padding: 20px;
 }
